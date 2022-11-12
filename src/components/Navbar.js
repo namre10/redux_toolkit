@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container-fluid">
+        <div className="container -fluid">
           <Link className="navbar-brand" to="/">
             {" "}
             Navbar
@@ -62,9 +62,6 @@ const Navbar = () => {
               />
               <button className="btn btn-primary mx-2" type="submit">
                 Search
-              </button>
-              <button className="btn btn-primary" type="submit">
-                Sort
               </button>
             </form>
           </div>
